@@ -1,0 +1,70 @@
+.navLinks{
+    color: whitesmoke;
+    transition: all 0.3s ease 0s;
+}
+.navLinks:hover{
+    background-color: rgb(255, 46, 46);
+    color: white;
+}
+
+.navButton{
+    background-color: black;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.navButton:hover{
+    opacity: 75%;
+    background-color: rgb(255, 46, 46);
+    color: whitesmoke;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 25px;
+    width: 35px;
+    text-decoration: none;
+    margin: 5px 5px;
+    color: rgb(255, 46, 46);
+    transition: all 0.3s ease 0s;
+  }
+  .fa:hover {
+    background-color: rgb(255, 46, 46);
+    color: whitesmoke;
+    transform: translateY(-7px);
+  }
+ .fa-github{
+    font-size: 25px;
+    width: 40px;
+  }
+  
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+
+.storeButton{
+    width: 150px;
+    transition: all 0.1s linear 0s;
+}
+
+.storeButton:hover{
+    cursor: pointer;
+    transform: translateY(-7px);
+    box-shadow: 0px 6px 10px rgb(46, 46, 46);
+}
+
+.links{
+    text-decoration: underline;
+    color: whitesmoke;
+}
+.links:hover{
+    color: rgb(255, 46, 46);
+}
